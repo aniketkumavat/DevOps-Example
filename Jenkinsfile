@@ -33,7 +33,7 @@ node {
       echo "Docker Image Tag Name: ${dockerImageTag}"
 	  
         sh "docker images"
-        sh "docker login -u Aniket1709 -p Aniket@1709" // put PWD
+        sh "docker login -u aniket1709 -p Aniket@1709" // put PWD
 	
 }
     stage('Docker push'){
